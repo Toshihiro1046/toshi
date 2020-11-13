@@ -1,0 +1,106 @@
+/* ここから下に記載していく */
+
+body{
+    background-color: #DDFFDD;
+}
+
+.start{
+    text-align: center;
+    font-size: 200px;
+    margin-top: 100px;
+}
+
+.character_select{
+    display: none;
+}
+
+.character{
+    display: flex;
+    justify-content: space-around;
+}
+
+.battle_main{
+    position: absolute;
+    left: 50px;
+    top:10px;
+}
+
+.battle_sub{
+    position: absolute;
+    right: 50px;
+    top:10px;
+}
+
+.battle_moji_main{
+    display: flex;
+    justify-content: left;
+    font-size:  30px;
+    margin-top: 200px;
+}
+
+.battle_moji_sub{
+    float: right;
+    font-size:  30px;
+}
+
+
+.sentence1{
+    text-align: center;
+    padding-bottom: 60px;
+    padding-top: 60px;
+    font-size: 40px;
+}
+
+.fight{
+    display: none;
+}
+
+.sentence2{
+    text-align: center;
+    padding-bottom: 60px;
+    padding-top: 60px;
+    font-size: 30px;
+}
+.button{
+    position: relative; 
+    display: flex;
+    justify-content: center;
+}
+.reload1{
+    margin: 0 auto;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 80px;
+    margin-top: 60px;
+}
+.kekka_main{
+    position: absolute;
+    left: 20px;
+    bottom: 100px
+}
+.kekka_sub{
+    position: absolute;
+    right: 20px;
+    bottom: 100px
+}
+
+.kekka_moji{
+    text-align: center;
+    font-size:  60px;
+    margin-top: 50px;
+}
+
+.a1{
+    margin-left: 30px;
+}
+
+.a2{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.a3{
+    margin-right: 30px;
+}

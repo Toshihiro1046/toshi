@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ja">
+<!-- 最初の設定は終わっています　必要な方は触ってください -->
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>ムシキングを目指して</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<!-- 最初の設定は終わっています　必要な方は触ってください -->
+
+<body>
+　<!-- スタートする画面 -->
+<div class="start">
+<button onclick="play()" id="play">スタート</button>
+</div>
+  <!-- キャラクターを選ぶ -->
+<div class="character_select">
+  <p class="sentence1">キャラクターを選んで下さい</p>
+  <div class="character">
+  <img class="c1" src="img/insect1.jpg" width="250px" alt="">
+  <img class="c2" src="img/insect2.jpg" width="250px" alt="">
+  <img class="c3" src="img/insect3.jpg" width="250px" alt="">
+  </div>
+  <div class="battle_main"></div>
+  <div class="battle_sub"></div>
+  <div class="battle_moji_main"></div>
+  <div class="battle_moji_sub"></div>
+</div>
+
+  <!-- 手を選ぶ -->
+<div class="fight">
+  <p class="sentence2">手を選んで下さい</p>
+  <div class='button'>
+    <img class="a1" src="img/0.jpg" width="250px" alt="">
+    <img class="a2" src="img/1.png" width="250px" alt="">
+    <img class="a3" src="img/2.jpg" width="250px" alt="">
+  </div>
+  <div class='kekka_main'></div>
+  <div class="kekka_sub"></div>
+  <div class="kekka_moji"></div>
+  
+      
+     <div class="reload1">
+     <button type="button1" onclick="location.reload();">再戦</button> 
+     </div>	
+</div>    
+  <!-- ここから上にコードを書く -->
+  
+  <!-- この中に記述していく -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="js/test.js"></script>
+</body>
+
+</html>
